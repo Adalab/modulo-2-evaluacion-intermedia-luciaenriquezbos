@@ -1,3 +1,7 @@
 .button {
   background-color: rgb(11, 216, 11);
 }
+
+.number__input {
+  background-color: grey;
+}
