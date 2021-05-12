@@ -13,7 +13,7 @@ const numberResult = getRandomNumber(100);
 
 //Mostrar número en consola::::::
 
-console.log("MI número aleatorio es "+ numberResult);
+console.log("Mi número aleatorio es "+ numberResult);
 
 //Contenido input
 
@@ -46,21 +46,6 @@ function handleClickButton() {
 }
 
 button.addEventListener( 'click' , handleClickButton );
-
-
-
-
-//Mostrar consola contenido input
-
-//console.log(numberInput);
-
-
-
-
-
-
-
-
 
 
 
