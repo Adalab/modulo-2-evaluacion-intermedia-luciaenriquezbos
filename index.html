@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Ejercicio Intermedio Mod2</title>
   </head>
   <body>
-     <h1 class="title">Adivina el número</h1>
-     <label class="label">
-         <h3 class="label__text">Introduce aquí tu número</h3>
-         <input
-         class="number__input js-input"
-          type="number"/>
-         <button class="js-button button"  type="button" title="Prueba">Prueba</button>
-     </label>
+    <h1 class="title">Adivina el número</h1>
+    <label class="label">
+      <h3 class="label__text">Introduce aquí tu número</h3>
       <form class="controls" action="#">
-        <p>Pista:<span class="js-track">Escribe el número y dale a Prueba</span></p>
-        <p>Número de intentos:<span class="js-attemps">0</span></p>
+        <input class="number__input js-input" type="number" />
+        <button class="js-button button" type="button" title="Prueba">
+          Prueba
+        </button>
+      </form>
+    </label>
 
-    <script src="main.js"></script>
+    <p>Pista:<span class="js-track">Escribe el número y dale a Prueba</span></p>
+    <p>Número de intentos:<span class="js-attemps">0</span></p>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
